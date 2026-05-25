@@ -98,10 +98,10 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="relative group hidden lg:block"
+          className="relative group mt-12 lg:mt-0 flex justify-center lg:block"
         >
           <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full opacity-30 group-hover:opacity-60 blur-2xl transition duration-1000 group-hover:duration-200 animate-pulse"></div>
-          <div className="relative w-[500px] h-[500px] rounded-full overflow-hidden border-2 border-white/10 shadow-2xl">
+          <div className="relative w-[280px] h-[280px] md:w-[380px] md:h-[380px] lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden border-2 border-white/10 shadow-2xl">
              <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-dark via-gray-900 to-primary/20 flex items-center justify-center">
                <img 
                  src="/profile.jpg" 
