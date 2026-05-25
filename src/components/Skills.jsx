@@ -4,13 +4,13 @@ import { Database, Code2, LineChart, Cpu, FileSpreadsheet, Terminal, Globe, Brai
 
 const Skills = () => {
   const mainSkills = [
-    { name: "Python", desc: "Data manipulation, Pandas, NumPy, Scikit-learn", icon: <Code2 size={28} />, color: "group-hover:from-blue-500 group-hover:to-cyan-400", shadow: "group-hover:shadow-blue-500/50", border: "group-hover:border-blue-500/50" },
-    { name: "SQL", desc: "Complex queries, Window functions, CTEs", icon: <Database size={28} />, color: "group-hover:from-emerald-500 group-hover:to-teal-400", shadow: "group-hover:shadow-emerald-500/50", border: "group-hover:border-emerald-500/50" },
-    { name: "Power BI", desc: "DAX, Data modeling, Dashboards", icon: <LineChart size={28} />, color: "group-hover:from-yellow-500 group-hover:to-orange-400", shadow: "group-hover:shadow-yellow-500/50", border: "group-hover:border-yellow-500/50" },
-    { name: "Excel", desc: "Advanced formulas, Pivot tables, VBA", icon: <FileSpreadsheet size={28} />, color: "group-hover:from-green-500 group-hover:to-emerald-400", shadow: "group-hover:shadow-green-500/50", border: "group-hover:border-green-500/50" },
-    { name: "Machine Learning", desc: "Predictive modeling, Classification, Regression", icon: <Cpu size={28} />, color: "group-hover:from-purple-500 group-hover:to-pink-400", shadow: "group-hover:shadow-purple-500/50", border: "group-hover:border-purple-500/50" },
-    { name: "Web Dev", desc: "HTML, CSS, JavaScript, React", icon: <Globe size={28} />, color: "group-hover:from-orange-500 group-hover:to-red-400", shadow: "group-hover:shadow-orange-500/50", border: "group-hover:border-orange-500/50" },
-    { name: "Data Analytics", desc: "Statistical analysis, A/B testing, Insights", icon: <BrainCircuit size={28} />, color: "group-hover:from-indigo-500 group-hover:to-blue-400", shadow: "group-hover:shadow-indigo-500/50", border: "group-hover:border-indigo-500/50" },
+    { name: "Python", desc: "Data manipulation, Pandas, NumPy, Scikit-learn", icon: <Code2 size={28} />, color: "from-blue-500 to-cyan-400", shadow: "shadow-blue-500/50", border: "hover:border-blue-500/50" },
+    { name: "SQL", desc: "Complex queries, Window functions, CTEs", icon: <Database size={28} />, color: "from-emerald-500 to-teal-400", shadow: "shadow-emerald-500/50", border: "hover:border-emerald-500/50" },
+    { name: "Power BI", desc: "DAX, Data modeling, Dashboards", icon: <LineChart size={28} />, color: "from-yellow-500 to-orange-400", shadow: "shadow-yellow-500/50", border: "hover:border-yellow-500/50" },
+    { name: "Excel", desc: "Advanced formulas, Pivot tables, VBA", icon: <FileSpreadsheet size={28} />, color: "from-green-500 to-emerald-400", shadow: "shadow-green-500/50", border: "hover:border-green-500/50" },
+    { name: "Machine Learning", desc: "Predictive modeling, Classification, Regression", icon: <Cpu size={28} />, color: "from-purple-500 to-pink-400", shadow: "shadow-purple-500/50", border: "hover:border-purple-500/50" },
+    { name: "Web Dev", desc: "HTML, CSS, JavaScript, React", icon: <Globe size={28} />, color: "from-orange-500 to-red-400", shadow: "shadow-orange-500/50", border: "hover:border-orange-500/50" },
+    { name: "Data Analytics", desc: "Statistical analysis, A/B testing, Insights", icon: <BrainCircuit size={28} />, color: "from-indigo-500 to-blue-400", shadow: "shadow-indigo-500/50", border: "hover:border-indigo-500/50" },
   ];
 
   const container = {
@@ -75,7 +75,7 @@ const Skills = () => {
               
               <div className="relative z-10">
                 <div className="flex justify-between items-start mb-6">
-                  <div className={`w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center text-white/50 group-hover:text-white transition-all duration-500 shadow-lg ${skill.shadow} bg-gradient-to-br ${skill.color}`}>
+                  <div className={`w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center text-white transition-all duration-500 shadow-lg ${skill.shadow} bg-gradient-to-br ${skill.color}`}>
                     {skill.icon}
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Skills = () => {
                   {skill.desc}
                 </p>
                 
-                <div className="mt-4 flex flex-wrap gap-2 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0">
+                <div className="mt-4 flex flex-wrap gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-500 transform translate-y-0 lg:translate-y-2 lg:group-hover:translate-y-0">
                   <span className="text-[10px] px-3 py-1 bg-white/10 text-white/80 rounded-full font-bold uppercase tracking-wider border border-white/10 backdrop-blur-md">
                     Learner
                   </span>
