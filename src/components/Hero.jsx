@@ -72,14 +72,15 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <motion.button 
+            <motion.a 
+              href="#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="btn-primary"
+              className="btn-primary flex items-center"
             >
               View Projects
-              <ArrowRight className="inline-ml-2 ml-2" size={18} />
-            </motion.button>
+              <ArrowRight className="ml-2" size={18} />
+            </motion.a>
             <motion.a 
               href="/Jerson_Resume.pdf"
               target="_blank"
