@@ -16,7 +16,7 @@ const About = () => {
       title: "B.Tech Information Technology",
       org: "Rajalakshmi Engineering College",
       icon: <GraduationCap className="text-secondary" />,
-      desc: "Pursuing my undergraduate degree. Passing out in 2026."
+      desc: "Completed my undergraduation. Passed out in 2026."
     },
     {
       year: "2022",
@@ -53,7 +53,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6 pt-8">
               {[
                 { label: "Passion", val: "AI & Crypto" },
-                { label: "Focus", val: "Data Mining" },
+                { label: "Focus", val: "Data Analyst" },
                 { label: "Core", val: "Problem Solving" },
                 { label: "Drive", val: "Visualization" }
               ].map((item, i) => (
