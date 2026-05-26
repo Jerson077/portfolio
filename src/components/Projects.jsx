@@ -19,7 +19,7 @@ const Projects = () => {
       desc: "End-to-end machine learning system identifying high-risk customers with 85%+ accuracy using gradient boosting.",
       tech: ["SKLearn", "SQL", "Tableau", "Python"],
       icon: <Users className="text-secondary" />,
-      github: "#",
+      github: "https://github.com/Jerson077/churn-prediction-platform",
       demo: "#",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
     },
