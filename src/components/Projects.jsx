@@ -10,7 +10,7 @@ const Projects = () => {
       desc: "Web application using LSTM models to predict consumer price index trends based on historical financial metrics.",
       tech: ["Python", "TensorFlow", "React", "Flask"],
       icon: <TrendingUp className="text-primary" />,
-      github: "#",
+      github: "https://github.com/Jerson077/CPI-Inflation-Prediction",
       demo: "#",
       image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=800"
     },
