@@ -61,7 +61,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <motion.a whileHover={{ y: -2 }} href="https://github.com/Jerson077" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaGithub size={20} /></motion.a>
-            <motion.a whileHover={{ y: -2 }} href="https://www.linkedin.com/in/jerson-d-m-16016431a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaLinkedin size={20} /></motion.a>
+            <motion.a whileHover={{ y: -2 }} href="https://www.linkedin.com/in/jerson-d-m-7480782b9?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white"><FaLinkedin size={20} /></motion.a>
             <a href="/Jerson_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary py-2 px-6 text-sm inline-block">Resume</a>
           </div>
 
@@ -106,7 +106,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-8 pt-8 border-t border-white/10 w-48 justify-center">
               <a href="https://github.com/Jerson077" target="_blank" rel="noopener noreferrer"><FaGithub size={24} className="text-white/60 hover:text-white" /></a>
-              <a href="https://www.linkedin.com/in/jerson-d-m-16016431a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} className="text-white/60 hover:text-white" /></a>
+              <a href="https://www.linkedin.com/in/jerson-d-m-7480782b9?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} className="text-white/60 hover:text-white" /></a>
               <a href="https://www.instagram.com/_jerson_jr?igsh=MTEzcjc3MXV2ZDFpZQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} className="text-white/60 hover:text-white" /></a>
             </div>
           </motion.div>

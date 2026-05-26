@@ -77,7 +77,7 @@ const Contact = () => {
 
             <div className="glass p-8 border-white/5 flex justify-between px-12">
               <motion.a whileHover={{ y: -5, color: '#6366f1' }} href="https://github.com/Jerson077" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaGithub size={28} /></motion.a>
-              <motion.a whileHover={{ y: -5, color: '#a855f7' }} href="https://www.linkedin.com/in/jerson-d-m-16016431a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaLinkedin size={28} /></motion.a>
+              <motion.a whileHover={{ y: -5, color: '#a855f7' }} href="https://www.linkedin.com/in/jerson-d-m-7480782b9?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaLinkedin size={28} /></motion.a>
               <motion.a whileHover={{ y: -5, color: '#ec4899' }} href="https://www.instagram.com/_jerson_jr?igsh=MTEzcjc3MXV2ZDFpZQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-white/40"><FaInstagram size={28} /></motion.a>
             </div>
           </div>
