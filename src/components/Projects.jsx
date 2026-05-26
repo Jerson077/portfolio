@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, BarChart3, TrendingUp, Users, Brain } from 'lucide-react';
+import { ExternalLink, BarChart3, TrendingUp, Users, Brain, HeartHandshake } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
@@ -24,13 +24,13 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
     },
     {
-      title: "Data Analytics Dashboard",
-      desc: "Real-time interactive Power BI dashboard for multi-national sales data visualization and forecasting.",
-      tech: ["Power BI", "DAX", "SQL Server", "Excel"],
-      icon: <BarChart3 className="text-accent" />,
+      title: "NAMMA COMMUNITY",
+      desc: "React Native & Firebase app built via Design Thinking. Features NGO discovery, donation tracking, volunteer coordination, multilingual support, and an AI Chatbot.",
+      tech: ["React Native", "Firebase", "Design Thinking"],
+      icon: <HeartHandshake className="text-accent" />,
       github: "#",
       demo: "#",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+      image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=800"
     },
     {
       title: "AI Forecasting Model",
