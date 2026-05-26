@@ -33,8 +33,8 @@ const Contact = () => {
         setTimeout(() => setSuccess(false), 5000);
     }, (error) => {
         setLoading(false);
-        console.error(error.text);
-        alert("Something went wrong. Please try again.");
+        console.error("EmailJS Error:", error);
+        alert("Something went wrong. Please check the console for details.");
     });
   };
 
