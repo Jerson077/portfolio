@@ -28,7 +28,7 @@ const Projects = () => {
       desc: "React Native & Firebase app built via Design Thinking. Features NGO discovery, donation tracking, volunteer coordination, multilingual support, and an AI Chatbot.",
       tech: ["React Native", "Firebase", "Design Thinking"],
       icon: <HeartHandshake className="text-accent" />,
-      github: "#",
+      github: "https://github.com/Jerson077/NAMMA-COMMUNITY",
       demo: "#",
       image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=800"
     },
