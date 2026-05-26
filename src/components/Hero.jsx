@@ -82,7 +82,7 @@ const Hero = () => {
               <ArrowRight className="ml-2" size={18} />
             </motion.a>
             <motion.a 
-              href="/Jerson_Resume.pdf"
+              href="/myresume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
